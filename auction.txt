@@ -1,0 +1,218 @@
+All open auctions are Single Stage while sealed bid can be in multiple stages
+
+type of auction is chosen based on the feasiblity of the auctioneer and objective of the auctioneer
+
+antiques are always sold open descending auction
+
+Multi-Item auctions where each buyer buys exactly one Item ->GSP / VGR may be used
+but fails when each buyers may buy multiple Items, and the Items are related
+
+compliments (if price of one increases the price of another increases) bought as package
+substitute (nearly equal prize) bought as individual
+
+Sequential Sale-> Bidder must guess twhat price will be in the future aution while bidding in current auction
+
+holdout problem ->
+
+In Simultaneous we dont have holdout problem and it induces truthfull bidding
+
+Simultaneous Ascending Auction
+Bidders simultaneously submit bids for each auctioned items
+Activity rules to show which item the bidder is interested in
+After each bid round, auctioneer announces “ provisional winning bid (and bidder) ”
+If no other higher bid comes in the next round, the provisional bidder wins and pays the winning bid
+Next round: winner -> who bids the provisional winning bid + the increment as specified by the auctioneer
+
+Simultaneous is better than sequential
+
+Multiple Stage induces Truthfull bidding which is not the case in case of Single Stage
+
+Radio Spectrum ->Simultaneous Multiple Round Ascending auction(used in India)
+
+
+Avoiding Winner's Curse
+
+bid >Valuation , utility is negative results in winner's curse , results in poor utilization of important resources
+
+Reduce Information Asymmetry between bidders and auctioneer
+SMRA reduces the chances of winners curse
+Pre-qualification to eliminate non-serious players
+Identify correct range of Reserve Prices ->min price at which the bidding begins in first stage
+
+
+how RP is decided?
+decided by auctioneer 
+
+RP in case o spectrum auction = max bidding price of previous auction but RP(t+1)= n*RP(t) / F(D,S)
+High RP may not invite the bidding even in case of SMRA which induces truthfull bidding
+
+Package Auction
+Threshold problem
+
+Bidders for single units may have difficulty in outbidding bidders
+for packages even though they value the package at higher amount when
+taken together
+
+Each bidder will hold back hoping the other will raise the bid
+
+Total number of packages a bidder could choose are enormous,which leads to the cinfusion amiong the bidders
+
+
+22 Telecom Service Areas across Country
+subdivide into 4 Category(Metros, Category A,B,C) based on revenue/earning
+
+Wheb spectrum is constrained more spectrum re use possible
+each cell is serviced using a single freq, same freq cann't be using same freq whereas non adjacent cell can use it for the commutication between transreciver and BTS
+
+Buy Less Spectrum -> Reuse More -> Cost incurred for infrastructure would be more 
+Buy More Spectrum -> Reuse less ->Cost incurred for infrastructure would be less
+
+1 Hz - 1Mhz but only some spectrum is available for mobile broadband
+
+India has standardized 
+700 Mhz(band 28)
+800 MHz
+900 MHz
+1800Mhz
+2100Mhz
+2300Mhz
+2500Mhz
+for the mobile communication
+lower the freq. better the coverage
+
+700-900Mhz(Sub Giga hetz band)(coverage spectrum) ->good for the covergae
+1800- 2500Mhz(Mid Band)(capacity spectrum)
+for rural and suburban areas i use 700-900MHZ if we use high freq the infrastructure cost incurred would be increased 
+in urban area mid band freq is used(1800 - 2500)
+
+700 was auctioned forst time in 2016
+generally we buy spectrum in same bands
+
+there is trade off between specrum and capital investment for infra
+
+in general the price of low freq bands(less capital investment due to better covergae) in higher as compared to high freq bands(more capital investment due to less covergae)
+
+RP for the high freq bands is lower and RP for the lower freq bands is higher
+
+No package is allowed in SMRA in spectrum auction
+
+Item is the freq  sold in particular licensed service area
+ 
+freq is sold in block
+if i want to auction 5 MHz freq in 800MHz band then i can have 4 blocks of 1.25 Mhz freq in a lisedced service area as an bidder i can bid for any no of block then correspondingly i hae to pay(n*P1)
+
+2*10MHz(10MHz for uplink and downlink seperately)(frequency division duplexing)
+
+700-2100(Paired Bands)
+
+1*10Mhz(time division duplexng)
+
+Properties of Spectrum
+Spectrum blocks in a given region are partly substitutable(2300 and 2500 can be used as substitute )
+Spectrum blocks in different regions are complementary(if i bid heavily for a region then i would aso like to bid for adjacent to make it contigous infrastructure)
+
+
+
+Manish Mathur's Lecture!
+
+SMRA Spectrum Auction:
+All offering open Simultaneously(these frequencies are substitute if tower is not checked)
+Remains Open Together
+All Offering Close Together
+Multiple Rounds (to prevent signaling in auction and induce truhfull bidding)
+Increases probability of optimum demand supply match based on market dynamics
+4G runs on every band except 2100Mhz
+
+no way bidder can give the price at which he wants to bid he only accepts or reject the price thrown by server (prevents sniping)
+
+if Demand >= Supply there is increment in second round , first round we have RP 
+
+The auction will have two Stages:
+• Clock Stage
+• Frequency Identification Stage
+
+if you bid for 4 blocks and not for actual frequency of frequency then they might be contigous(preffered) or not contigous
+
+Clock Stage
+Clock stage obeys 
+	• Activity Rules (helps to maintain disciple of bidding, bidder doesn't show his hand at when 		  auction near end he start bidding ,unfair as well honest money is pledged at the start (bank 		guarantee), activity points , if you don't bid in any round activity points would turn 0 , if you 		dont put a single bid in first round then honest money is forbidded)
+	• Ranking Rules (round based auction 6 people accept the price given by server and i have supply 		  less then the total demand how do i decide who to give based on ranking rules )
+	• Price Increment rules.
+
+when Auction Stops:
+Auction Activity requirement is 100%
+In any clock round there is no bidding activity for all service area for all bands
+
+Bidders will be able to bid at the Clock Round Price per Block
+for each of the Service Areas
+• In the 1st Clock Round, Price per Block in each Service Area in
+each of the Bands will be set equal to the Reserve Price
+• In the 1 st Clock Round, Bidders MUST submit their bid for at least
+ONE Service Area in ONE of the Bands
+• In case of NO Bid in 1 st Clock Round, that Bidder will NOT be
+allowed to participate further in the Auction & EMD will be forfeited
+
+
+Bidder commits to buy the Block(s) in that Service Area at a price
+not greater than the Clock Round price of the Round when the Bid
+was submitted, unless revised in the subsequent rounds with a
+higher price.
+• Bidder cannot switch Bids to other Service Areas or other Bands
+• Will become Winning Bids at the end of the Final Clock Round
+
+Final Clock Round will establish a Common Winning Price for
+all Blocks within a Service Area for a particular Band, and the
+Winning Bidders in each Service Area in each Band
+
+
+Activity Rules 
+AAR
+• Expressed as a percentage of the Bidder’s Eligibility Points
+(required to be used)
+• Will apply to every Clock Round.
+• Determines the level of activity that a Bidder must meet in that
+Clock Round in order to maintain its eligibility in the following
+Clock Round.
+• If AAR =80%, this means that each bidder must use 80% of the
+EP at the beginning of the round if he wants to maintain the EP
+balance in the next round
+• AAR percentage will increase over the duration
+
+Ranking based on following Criteria with the successive Criterion coming
+into effect in event of a TIE with the current Criterion
+• Criterion 1 – Descending Order of CRP
+• Criterion 2 - Descending Order of the Count of the number of times the
+Bid has been submitted for a Unique CRP (excluding the Current Clock
+Round)
+• Criterion 3 - Descending Order of the Highest CRP when the Bid was
+submitted in the earlier rounds (excluding the Current Clock Round)
+• Criterion 4 - Descending Order according to the number of Blocks for
+which bid has been submitted by the Bidder at the Current CRP
+• Criterion 5 - Descending Order according to the total value of all Blocks
+across all Bands in all Service Areas for which Bid has been submitted
+by the Bidder at the Current CRP
+• Criterion 6 - Ties will be broken according to a Random Index assigned
+to the Bid by the EAS
+
+
+earnest money for each item -> LSA + frequency
+As long as the bidder has some eligibility points (EP) the customer is eligible for bidding.
+No priority is given to bidders having highest EMD
+
+
+Spectrum Caps
+○ Cannot hold more than 50% in any specific frequency in each LSA
+○ Cannot hold more than 25% of overall spectrum in each LSA
+
+Mobile Virtual network operation -> it is reffered to as leasing the spectrum to other operators
+rason for leasing(operationally weak , not able to utilse the network)leased but spectrum rights are not transferred
+since the spectrum is perichable and thus MVNO is valid in INdia
+
+Trading Acquisition(spectrum rights transffered)
+
+wifi offloading reffers to the froping of the freq that is used as soon as authentication is done 
+
+LTE -U ->Unlisenced when roaming with Lte band in licensed spectrum when move into WIFI access pointwhich is working on LTE U then you would be seemlesly transferred to LTE U
+advantage
+taloired for unlicensed spectrum , very efficient data speed 
+
