@@ -1,0 +1,27 @@
+version control
+
+entire chain of devops 
+
+read workflow of all
+
+no devsecops
+
+upto rundeck
+
+more subjective
+
+memorrize architecture diagram
+
+5 marks -1 page (2 para +1 diag)
+
+7 descriptive +15 marks mcq
+
+waterfall vs agile vs devops ? technical and business advantages of devops?how devops is better than othen two
+
+what is cont integration ? how it helps in devops development ? success factor of CI ? software development life cycle?
+
+what is Iaac 
+
+advantages of docker using in cloud , docker layered arch , discuss about each group 
+
+what is distributed control system? diff btw git clone and git fork? git workflow
