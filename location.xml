@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Wed Feb 17 15:32:16 IST 2010 -->
+
+<locations xsi:schemaLocation="http://www.karthikeyan.ind.in/location location.xsd" xmlns="http://www.karthikeyan.ind.in/location" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<location>
+		<latitude>9.123456</latitude>
+		<longitude>10.312456</longitude>
+		<uncertanity units="meters">2</uncertanity>
+	</location>
+	<location>
+		<latitude>19.123456</latitude>
+		<longitude>10.312456</longitude>
+		<uncertanity units="meters">3</uncertanity>
+	</location>
+	<location>
+		<latitude>29.123234</latitude>
+		<longitude>10.312456</longitude>
+		<uncertanity units="meters">1</uncertanity>
+	</location>
+	<location>
+		<latitude>9.123456</latitude>
+		<longitude>110.312456</longitude>
+		<uncertanity units="meters">2</uncertanity>
+	</location>
+	<location>
+		<latitude>9.123456</latitude>
+		<longitude>1.312456</longitude>
+		<uncertanity units="meters">0</uncertanity>
+	</location>
+</locations>
